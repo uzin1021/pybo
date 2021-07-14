@@ -1,0 +1,9 @@
+{% if question_list %}
+    <ul>
+        {% for question in question_list %}
+        <li>
+            {{ question.subject }}
+        </li>
+        {% endfor %}
+    </ul>
+{% endif %}
